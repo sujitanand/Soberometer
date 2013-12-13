@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFB5D31E185A9BBA000682C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB5D31D185A9BBA000682C5 /* Foundation.framework */; };
+		AFB5D320185A9BBA000682C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB5D31F185A9BBA000682C5 /* CoreGraphics.framework */; };
+		AFB5D322185A9BBA000682C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB5D321185A9BBA000682C5 /* UIKit.framework */; };
+		AFB5D328185A9BBA000682C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFB5D326185A9BBA000682C5 /* InfoPlist.strings */; };
+		AFB5D32A185A9BBA000682C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5D329185A9BBA000682C5 /* main.m */; };
+		AFB5D32E185A9BBA000682C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5D32D185A9BBA000682C5 /* AppDelegate.m */; };
+		AFB5D330185A9BBA000682C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB5D32F185A9BBA000682C5 /* Images.xcassets */; };
+		AFB5D337185A9BBA000682C5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB5D336185A9BBA000682C5 /* XCTest.framework */; };
+		AFB5D338185A9BBA000682C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB5D31D185A9BBA000682C5 /* Foundation.framework */; };
+		AFB5D339185A9BBA000682C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB5D321185A9BBA000682C5 /* UIKit.framework */; };
+		AFB5D341185A9BBA000682C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFB5D33F185A9BBA000682C5 /* InfoPlist.strings */; };
+		AFB5D343185A9BBA000682C5 /* SoberometerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5D342185A9BBA000682C5 /* SoberometerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFB5D33A185A9BBA000682C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB5D312185A9BB9000682C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB5D319185A9BB9000682C5;
+			remoteInfo = Soberometer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFB5D31A185A9BBA000682C5 /* Soberometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soberometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB5D31D185A9BBA000682C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFB5D31F185A9BBA000682C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFB5D321185A9BBA000682C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFB5D325185A9BBA000682C5 /* Soberometer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Soberometer-Info.plist"; sourceTree = "<group>"; };
+		AFB5D327185A9BBA000682C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFB5D329185A9BBA000682C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFB5D32B185A9BBA000682C5 /* Soberometer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Soberometer-Prefix.pch"; sourceTree = "<group>"; };
+		AFB5D32C185A9BBA000682C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFB5D32D185A9BBA000682C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFB5D32F185A9BBA000682C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AFB5D335185A9BBA000682C5 /* SoberometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoberometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB5D336185A9BBA000682C5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AFB5D33E185A9BBA000682C5 /* SoberometerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoberometerTests-Info.plist"; sourceTree = "<group>"; };
+		AFB5D340185A9BBA000682C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFB5D342185A9BBA000682C5 /* SoberometerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoberometerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFB5D317185A9BB9000682C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB5D320185A9BBA000682C5 /* CoreGraphics.framework in Frameworks */,
+				AFB5D322185A9BBA000682C5 /* UIKit.framework in Frameworks */,
+				AFB5D31E185A9BBA000682C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB5D332185A9BBA000682C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB5D337185A9BBA000682C5 /* XCTest.framework in Frameworks */,
+				AFB5D339185A9BBA000682C5 /* UIKit.framework in Frameworks */,
+				AFB5D338185A9BBA000682C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFB5D311185A9BB9000682C5 = {
+			isa = PBXGroup;
+			children = (
+				AFB5D323185A9BBA000682C5 /* Soberometer */,
+				AFB5D33C185A9BBA000682C5 /* SoberometerTests */,
+				AFB5D31C185A9BBA000682C5 /* Frameworks */,
+				AFB5D31B185A9BBA000682C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFB5D31B185A9BBA000682C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB5D31A185A9BBA000682C5 /* Soberometer.app */,
+				AFB5D335185A9BBA000682C5 /* SoberometerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFB5D31C185A9BBA000682C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFB5D31D185A9BBA000682C5 /* Foundation.framework */,
+				AFB5D31F185A9BBA000682C5 /* CoreGraphics.framework */,
+				AFB5D321185A9BBA000682C5 /* UIKit.framework */,
+				AFB5D336185A9BBA000682C5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFB5D323185A9BBA000682C5 /* Soberometer */ = {
+			isa = PBXGroup;
+			children = (
+				AFB5D32C185A9BBA000682C5 /* AppDelegate.h */,
+				AFB5D32D185A9BBA000682C5 /* AppDelegate.m */,
+				AFB5D32F185A9BBA000682C5 /* Images.xcassets */,
+				AFB5D324185A9BBA000682C5 /* Supporting Files */,
+			);
+			path = Soberometer;
+			sourceTree = "<group>";
+		};
+		AFB5D324185A9BBA000682C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFB5D325185A9BBA000682C5 /* Soberometer-Info.plist */,
+				AFB5D326185A9BBA000682C5 /* InfoPlist.strings */,
+				AFB5D329185A9BBA000682C5 /* main.m */,
+				AFB5D32B185A9BBA000682C5 /* Soberometer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFB5D33C185A9BBA000682C5 /* SoberometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB5D342185A9BBA000682C5 /* SoberometerTests.m */,
+				AFB5D33D185A9BBA000682C5 /* Supporting Files */,
+			);
+			path = SoberometerTests;
+			sourceTree = "<group>";
+		};
+		AFB5D33D185A9BBA000682C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFB5D33E185A9BBA000682C5 /* SoberometerTests-Info.plist */,
+				AFB5D33F185A9BBA000682C5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFB5D319185A9BB9000682C5 /* Soberometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB5D346185A9BBA000682C5 /* Build configuration list for PBXNativeTarget "Soberometer" */;
+			buildPhases = (
+				AFB5D316185A9BB9000682C5 /* Sources */,
+				AFB5D317185A9BB9000682C5 /* Frameworks */,
+				AFB5D318185A9BB9000682C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soberometer;
+			productName = Soberometer;
+			productReference = AFB5D31A185A9BBA000682C5 /* Soberometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFB5D334185A9BBA000682C5 /* SoberometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB5D349185A9BBA000682C5 /* Build configuration list for PBXNativeTarget "SoberometerTests" */;
+			buildPhases = (
+				AFB5D331185A9BBA000682C5 /* Sources */,
+				AFB5D332185A9BBA000682C5 /* Frameworks */,
+				AFB5D333185A9BBA000682C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB5D33B185A9BBA000682C5 /* PBXTargetDependency */,
+			);
+			name = SoberometerTests;
+			productName = SoberometerTests;
+			productReference = AFB5D335185A9BBA000682C5 /* SoberometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFB5D312185A9BB9000682C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sujit Anand";
+				TargetAttributes = {
+					AFB5D334185A9BBA000682C5 = {
+						TestTargetID = AFB5D319185A9BB9000682C5;
+					};
+				};
+			};
+			buildConfigurationList = AFB5D315185A9BB9000682C5 /* Build configuration list for PBXProject "Soberometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFB5D311185A9BB9000682C5;
+			productRefGroup = AFB5D31B185A9BBA000682C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFB5D319185A9BB9000682C5 /* Soberometer */,
+				AFB5D334185A9BBA000682C5 /* SoberometerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFB5D318185A9BB9000682C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB5D328185A9BBA000682C5 /* InfoPlist.strings in Resources */,
+				AFB5D330185A9BBA000682C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB5D333185A9BBA000682C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB5D341185A9BBA000682C5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFB5D316185A9BB9000682C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB5D32E185A9BBA000682C5 /* AppDelegate.m in Sources */,
+				AFB5D32A185A9BBA000682C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB5D331185A9BBA000682C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB5D343185A9BBA000682C5 /* SoberometerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFB5D33B185A9BBA000682C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB5D319185A9BB9000682C5 /* Soberometer */;
+			targetProxy = AFB5D33A185A9BBA000682C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFB5D326185A9BBA000682C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB5D327185A9BBA000682C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFB5D33F185A9BBA000682C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB5D340185A9BBA000682C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFB5D344185A9BBA000682C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFB5D345185A9BBA000682C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFB5D347185A9BBA000682C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Soberometer/Soberometer-Prefix.pch";
+				INFOPLIST_FILE = "Soberometer/Soberometer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFB5D348185A9BBA000682C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Soberometer/Soberometer-Prefix.pch";
+				INFOPLIST_FILE = "Soberometer/Soberometer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AFB5D34A185A9BBA000682C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Soberometer.app/Soberometer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Soberometer/Soberometer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SoberometerTests/SoberometerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AFB5D34B185A9BBA000682C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Soberometer.app/Soberometer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Soberometer/Soberometer-Prefix.pch";
+				INFOPLIST_FILE = "SoberometerTests/SoberometerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFB5D315185A9BB9000682C5 /* Build configuration list for PBXProject "Soberometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB5D344185A9BBA000682C5 /* Debug */,
+				AFB5D345185A9BBA000682C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB5D346185A9BBA000682C5 /* Build configuration list for PBXNativeTarget "Soberometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB5D347185A9BBA000682C5 /* Debug */,
+				AFB5D348185A9BBA000682C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFB5D349185A9BBA000682C5 /* Build configuration list for PBXNativeTarget "SoberometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB5D34A185A9BBA000682C5 /* Debug */,
+				AFB5D34B185A9BBA000682C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFB5D312185A9BB9000682C5 /* Project object */;
+}
