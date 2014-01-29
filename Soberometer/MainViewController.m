@@ -33,21 +33,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     [self reloadInputViews];
-#if 0
-    mainView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
-    mainView.backgroundColor = [UIColor redColor];
-    [self.view addSubview:mainView];
-    
-    statusBar = [[UIView alloc]initWithFrame:CGRectMake(0, 0, mainView.frame.size.width, 22)];
-    statusBar.backgroundColor = [UIColor yellowColor];
-    [mainView addSubview:statusBar];
-    
-    headerView = [[UIView alloc]initWithFrame:CGRectMake(0, 22, mainView.frame.size.width,44.0)];
-    headerView.backgroundColor = [UIColor grayColor];
-    [mainView addSubview:headerView];
-    [self drawGrid:CGRectMake(100, 100, 150, 150)];
-#endif
-    
 }
 
 -(void)reloadInputViews{
@@ -155,7 +140,7 @@
     NSLog(@"RANDOM NUMBER:%lu",randonNumber);
     CABasicAnimation *newAnimate = [CABasicAnimation animationWithKeyPath:@"opacity"];
     [newAnimate setDuration:0.5];
-    newAnimate.repeatCount = 10;
+    newAnimate.repeatCount = 9999;
     [newAnimate setToValue:[NSNumber numberWithFloat:1.50]];
     [newAnimate setFromValue:[NSNumber numberWithFloat:0.0]];
     [newAnimate setAutoreverses:YES];
