@@ -19,6 +19,7 @@
 		AFB5D339185A9BBA000682C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB5D321185A9BBA000682C5 /* UIKit.framework */; };
 		AFB5D341185A9BBA000682C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFB5D33F185A9BBA000682C5 /* InfoPlist.strings */; };
 		AFB5D343185A9BBA000682C5 /* SoberometerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5D342185A9BBA000682C5 /* SoberometerTests.m */; };
+		AFB5D34E185A9BE9000682C5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5D34D185A9BE9000682C5 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		AFB5D33E185A9BBA000682C5 /* SoberometerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoberometerTests-Info.plist"; sourceTree = "<group>"; };
 		AFB5D340185A9BBA000682C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AFB5D342185A9BBA000682C5 /* SoberometerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoberometerTests.m; sourceTree = "<group>"; };
+		AFB5D34C185A9BE9000682C5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AFB5D34D185A9BE9000682C5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				AFB5D32C185A9BBA000682C5 /* AppDelegate.h */,
 				AFB5D32D185A9BBA000682C5 /* AppDelegate.m */,
+				AFB5D34C185A9BE9000682C5 /* MainViewController.h */,
+				AFB5D34D185A9BE9000682C5 /* MainViewController.m */,
 				AFB5D32F185A9BBA000682C5 /* Images.xcassets */,
 				AFB5D324185A9BBA000682C5 /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFB5D32E185A9BBA000682C5 /* AppDelegate.m in Sources */,
+				AFB5D34E185A9BE9000682C5 /* MainViewController.m in Sources */,
 				AFB5D32A185A9BBA000682C5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
